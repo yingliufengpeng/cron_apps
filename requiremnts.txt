@@ -1,0 +1,4 @@
+apscheduler
+plombery
+uvicorn
+huggingface_hub

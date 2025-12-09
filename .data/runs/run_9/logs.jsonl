@@ -1,0 +1,2 @@
+{"level": "INFO", "message": "Executing pipeline `download_pipeline` #9 via trigger `_manual`", "loggerName": "plombery.9", "timestamp": "2025-12-09T10:25:41.249Z", "pipeline": "download_pipeline", "task": null}
+{"level": "INFO", "message": "Executing task download_and_delete_mp4", "loggerName": "plombery.9", "timestamp": "2025-12-09T10:25:41.249Z", "pipeline": "download_pipeline", "task": null}
