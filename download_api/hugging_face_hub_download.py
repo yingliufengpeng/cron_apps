@@ -31,7 +31,9 @@ async def download_and_delete_mp4():
     start = random.randint(1, 30) - 1
 
     start, end = (
-        (start, start + 10) if is_first else (len(files) - start, len(files) - start)
+        (start, start + 15)
+        if is_first
+        else (len(files) - start - 15, len(files) - start)
     )
 
     # start, end = 0, 10
