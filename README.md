@@ -55,7 +55,7 @@
   nssm stop DownloadCronService
   nssm restart DownloadCronService
 
-# 删除windows服务
+# 删除DownloadCronService服务
 
   nssm.exe remove DownloadCronService confirm
   
