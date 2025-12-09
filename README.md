@@ -11,7 +11,7 @@
   start run_schedule.bat
   
  
-# 注册定时任务(windows)  定时任务暂时不用
+# 注册定时任务(windows)   
   SCHTASKS /Create /SC MINUTE /MO 30 /TN "PlomberyScheduler" /TR "E:\cron_apps\run_scheduler.bat" /RL HIGHEST /F
    
    
