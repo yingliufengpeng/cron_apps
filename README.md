@@ -18,7 +18,9 @@
 # 创建windows服务 
 
   nssm install PlomberyService "C:\Windows\System32\cmd.exe" "/c E:\cron_apps\run_scheduler.bat"
+  
   nssm set PlomberyService AppDirectory "E:\cron_apps"
+  
   nssm.exe set PlomberyService ObjectName ".\peng" "xxxxxx"
 
   
@@ -33,4 +35,5 @@
 
 
 # windows服务通过 nssm 来做管理, 权限为管理员权限.
+
   文件路径: deploy\nssm.exe
