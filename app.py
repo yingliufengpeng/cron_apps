@@ -7,6 +7,7 @@ os.environ.pop("HTTP_PROXY", None)
 os.environ.pop("http_proxy", None)
 os.environ.pop("HTTPS_PROXY", None)
 os.environ.pop("https_proxy", None)
+os.environ["PLOMBERY_DISABLE_EVENTS"] = "true"
 
 
 from apscheduler.triggers.interval import IntervalTrigger
@@ -47,6 +48,21 @@ register_pipeline(
         ),
     ],
 )
+
+# register_pipeline(
+#     id="download_pipeline",
+#     description="Download mp4",
+#     tasks=[download_and_delete_mp4],
+#     triggers=[
+#         Trigger(
+#             id="every_second",
+#             name="Every Second",
+#             description="Run the pipeline every second",
+#             schedule=IntervalTrigger(seconds=1),
+#         ),
+#     ],
+# )
+
 
 # ------------------------
 # 启动 Web UI

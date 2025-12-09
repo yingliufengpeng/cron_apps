@@ -1,1198 +1,805 @@
-ssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x00000203D15667B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
-Traceback (most recent call last):
-  File "E:\cron_tasks\app.py", line 23, in <module>
-    file_handler = logging.FileHandler("logs/plombery.log", encoding="utf-8")
-  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1219, in __init__
-    StreamHandler.__init__(self, self._open())
-                                 ~~~~~~~~~~^^
-  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1248, in _open
-    return open_func(self.baseFilename, self.mode,
-                     encoding=self.encoding, errors=self.errors)
-PermissionError: [Errno 13] Permission denied: 'E:\\cron_tasks\\logs\\plombery.log'
-ssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x00000209DD6267B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
-Traceback (most recent call last):
-  File "E:\cron_tasks\app.py", line 23, in <module>
-    file_handler = logging.FileHandler("logs/plombery.log", encoding="utf-8")
-  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1219, in __init__
-    StreamHandler.__init__(self, self._open())
-                                 ~~~~~~~~~~^^
-  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1248, in _open
-    return open_func(self.baseFilename, self.mode,
-                     encoding=self.encoding, errors=self.errors)
-PermissionError: [Errno 13] Permission denied: 'E:\\cron_tasks\\logs\\plombery.log'
-ssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x000001B03CA367B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
-Traceback (most recent call last):
-  File "E:\cron_tasks\app.py", line 23, in <module>
-    file_handler = logging.FileHandler("logs/plombery.log", encoding="utf-8")
-  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1219, in __init__
-    StreamHandler.__init__(self, self._open())
-                                 ~~~~~~~~~~^^
-  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1248, in _open
-    return open_func(self.baseFilename, self.mode,
-                     encoding=self.encoding, errors=self.errors)
-PermissionError: [Errno 13] Permission denied: 'E:\\cron_tasks\\logs\\plombery.log'
-ssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x0000018B64A367B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
-Traceback (most recent call last):
-  File "E:\cron_tasks\app.py", line 23, in <module>
-    file_handler = logging.FileHandler("logs/plombery.log", encoding="utf-8")
-  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1219, in __init__
-    StreamHandler.__init__(self, self._open())
-                                 ~~~~~~~~~~^^
-  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1248, in _open
-    return open_func(self.baseFilename, self.mode,
-                     encoding=self.encoding, errors=self.errors)
-PermissionError: [Errno 13] Permission denied: 'E:\\cron_tasks\\logs\\plombery.log'
-ssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x000002144FFC67B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
-Traceback (most recent call last):
-  File "E:\cron_tasks\app.py", line 8, in <module>
-    from plombery import Trigger, register_pipeline
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\__init__.py", line 10, in <module>
-    from .database.operations import setup_database
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\database\operations.py", line 3, in <module>
-    from alembic import command
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\alembic\__init__.py", line 1, in <module>
-    from . import context
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\alembic\context.py", line 1, in <module>
-    from .runtime.environment import EnvironmentContext
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\alembic\runtime\environment.py", line 23, in <module>
-    from .migration import _ProxyTransaction
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\alembic\runtime\migration.py", line 32, in <module>
-    from .. import ddl
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\alembic\ddl\__init__.py", line 4, in <module>
-    from . import postgresql
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\alembic\ddl\postgresql.py", line 47, in <module>
-    from ..autogenerate import render
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\alembic\autogenerate\__init__.py", line 1, in <module>
-    from .api import _render_migration_diffs as _render_migration_diffs
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1023, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1156, in get_code
-  File "<frozen importlib._bootstrap_external>", line 787, in _compile_bytecode
-  File "<frozen importlib._bootstrap>", line 491, in _verbose_message
-KeyboardInterrupt
-^Cssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x000001CD0D2A67B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
-Traceback (most recent call last):
-  File "E:\cron_tasks\app.py", line 46, in <module>
-    raise UserWarning("fsfsf")
-UserWarning: fsfsf
-ssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x000002068A4467B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
-Traceback (most recent call last):
-  File "E:\cron_tasks\app.py", line 46, in <module>
-    raise UserWarning("fsfsf")
-UserWarning: fsfsf
-ssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x000001D4EE2167B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
-Traceback (most recent call last):
-  File "E:\cron_tasks\app.py", line 46, in <module>
-    raise UserWarning("fsfsf")
-UserWarning: fsfsf
-INFO:     Started server process [33468]
+INFO:     Started server process [34020]
 INFO:     Waiting for application startup.
-ssss E:\apps\miniconda3\python.exe, [<_distutils_hack.DistutilsMetaFinder object at 0x0000025ED94D67B0>, <class '_frozen_importlib.BuiltinImporter'>, <class '_frozen_importlib.FrozenImporter'>, <class '_frozen_importlib_external.PathFinder'>]
 Running all migrations from base to head...
 INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-Alembic migrations complete.
-INFO:     127.0.0.1:53312 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:62919 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:53312 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53312 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52875 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49452 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49452 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #5 via trigger `_manual`
-INFO  [plombery.5] Executing pipeline `download_pipeline` #5 via trigger `_manual`
+Executing pipeline `download_pipeline` #201 via trigger `every_second`
+INFO  [plombery.201] Executing pipeline `download_pipeline` #201 via trigger `every_second`
 Executing task download_and_delete_mp4
-INFO  [plombery.5] Executing task download_and_delete_mp4
-Running download_and_delete_mp4 at 2025-12-09 17:13:56.114528
-INFO:     127.0.0.1:49452 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56178 - "GET /api/runs/5 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56178 - "GET /api/runs/5/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56776 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62093 - "GET /api/runs/5 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51908 - "GET /api/runs/5/logs HTTP/1.1" 200 OK
+INFO  [plombery.201] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:19.151684
+INFO  [plombery.201-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:19.151684
+Executing pipeline `download_pipeline` #202 via trigger `every_second`
+INFO  [plombery.202] Executing pipeline `download_pipeline` #202 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.202] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:20.146635
+INFO  [plombery.202-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:20.146635
+Executing pipeline `download_pipeline` #203 via trigger `every_second`
+INFO  [plombery.203] Executing pipeline `download_pipeline` #203 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.203] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:21.152897
+INFO  [plombery.203-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:21.152897
+Executing pipeline `download_pipeline` #204 via trigger `every_second`
+INFO  [plombery.204] Executing pipeline `download_pipeline` #204 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.204] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:22.156841
+INFO  [plombery.204-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:22.156841
+Executing pipeline `download_pipeline` #205 via trigger `every_second`
+INFO  [plombery.205] Executing pipeline `download_pipeline` #205 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.205] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:23.148477
+INFO  [plombery.205-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:23.148477
+Executing pipeline `download_pipeline` #206 via trigger `every_second`
+INFO  [plombery.206] Executing pipeline `download_pipeline` #206 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.206] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:24.158801
+INFO  [plombery.206-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:24.158801
+Alembic migrations complete.
+INFO:     127.0.0.1:54645 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58525 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:54645 - "GET /api/auth/whoami HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54645 - "GET /api/pipelines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #207 via trigger `every_second`
+INFO  [plombery.207] Executing pipeline `download_pipeline` #207 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.207] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:25.148837
+INFO  [plombery.207-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:25.148837
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #208 via trigger `every_second`
+INFO  [plombery.208] Executing pipeline `download_pipeline` #208 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.208] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:26.156850
+INFO  [plombery.208-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:26.156850
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #209 via trigger `every_second`
+INFO  [plombery.209] Executing pipeline `download_pipeline` #209 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.209] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:27.152677
+INFO  [plombery.209-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:27.152677
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #210 via trigger `every_second`
+INFO  [plombery.210] Executing pipeline `download_pipeline` #210 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.210] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:28.144577
+INFO  [plombery.210-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:28.144577
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #211 via trigger `every_second`
+INFO  [plombery.211] Executing pipeline `download_pipeline` #211 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.211] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:29.158656
+INFO  [plombery.211-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:29.158656
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #212 via trigger `every_second`
+INFO  [plombery.212] Executing pipeline `download_pipeline` #212 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.212] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:30.150709
+INFO  [plombery.212-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:30.150709
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #213 via trigger `every_second`
+INFO  [plombery.213] Executing pipeline `download_pipeline` #213 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.213] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:31.146755
+INFO  [plombery.213-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:31.146755
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #214 via trigger `every_second`
+INFO  [plombery.214] Executing pipeline `download_pipeline` #214 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.214] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:32.156773
+INFO  [plombery.214-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:32.156773
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #215 via trigger `every_second`
+INFO  [plombery.215] Executing pipeline `download_pipeline` #215 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.215] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:33.150957
+INFO  [plombery.215-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:33.150957
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #216 via trigger `every_second`
+INFO  [plombery.216] Executing pipeline `download_pipeline` #216 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.216] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:34.146708
+INFO  [plombery.216-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:34.146708
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #217 via trigger `every_second`
+INFO  [plombery.217] Executing pipeline `download_pipeline` #217 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.217] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:35.144720
+INFO  [plombery.217-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:35.144720
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #218 via trigger `every_second`
+INFO  [plombery.218] Executing pipeline `download_pipeline` #218 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.218] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:36.151111
+INFO  [plombery.218-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:36.151111
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #219 via trigger `every_second`
+INFO  [plombery.219] Executing pipeline `download_pipeline` #219 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.219] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:37.144907
+INFO  [plombery.219-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:37.144907
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #220 via trigger `every_second`
+INFO  [plombery.220] Executing pipeline `download_pipeline` #220 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.220] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:38.143186
+INFO  [plombery.220-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:38.143186
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #221 via trigger `every_second`
+INFO  [plombery.221] Executing pipeline `download_pipeline` #221 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.221] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:39.154815
+INFO  [plombery.221-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:39.154815
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #222 via trigger `every_second`
+INFO  [plombery.222] Executing pipeline `download_pipeline` #222 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.222] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:40.152646
+INFO  [plombery.222-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:40.152646
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #223 via trigger `every_second`
+INFO  [plombery.223] Executing pipeline `download_pipeline` #223 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.223] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:41.142800
+INFO  [plombery.223-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:41.142800
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #224 via trigger `every_second`
+INFO  [plombery.224] Executing pipeline `download_pipeline` #224 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.224] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:42.154810
+INFO  [plombery.224-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:42.154810
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #225 via trigger `every_second`
+INFO  [plombery.225] Executing pipeline `download_pipeline` #225 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.225] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:43.152747
+INFO  [plombery.225-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:43.152747
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #226 via trigger `every_second`
+INFO  [plombery.226] Executing pipeline `download_pipeline` #226 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.226] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:44.150779
+INFO  [plombery.226-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:44.150779
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #227 via trigger `every_second`
+INFO  [plombery.227] Executing pipeline `download_pipeline` #227 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.227] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:45.144698
+INFO  [plombery.227-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:45.144698
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #228 via trigger `every_second`
+INFO  [plombery.228] Executing pipeline `download_pipeline` #228 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.228] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:46.142835
+INFO  [plombery.228-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:46.142835
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #229 via trigger `every_second`
+INFO  [plombery.229] Executing pipeline `download_pipeline` #229 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.229] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:47.156795
+INFO  [plombery.229-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:47.156795
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #230 via trigger `every_second`
+INFO  [plombery.230] Executing pipeline `download_pipeline` #230 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.230] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:48.156764
+INFO  [plombery.230-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:48.156764
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #231 via trigger `every_second`
+INFO  [plombery.231] Executing pipeline `download_pipeline` #231 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.231] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:49.142603
+INFO  [plombery.231-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:49.142603
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #232 via trigger `every_second`
+INFO  [plombery.232] Executing pipeline `download_pipeline` #232 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.232] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:50.144867
+INFO  [plombery.232-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:50.144867
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #233 via trigger `every_second`
+INFO  [plombery.233] Executing pipeline `download_pipeline` #233 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.233] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:51.145329
+INFO  [plombery.233-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:51.145329
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #234 via trigger `every_second`
+INFO  [plombery.234] Executing pipeline `download_pipeline` #234 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.234] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:52.144916
+INFO  [plombery.234-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:52.144916
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #235 via trigger `every_second`
+INFO  [plombery.235] Executing pipeline `download_pipeline` #235 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.235] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:53.149141
+INFO  [plombery.235-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:53.149141
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #236 via trigger `every_second`
+INFO  [plombery.236] Executing pipeline `download_pipeline` #236 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.236] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:54.145210
+INFO  [plombery.236-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:54.145210
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #237 via trigger `every_second`
+INFO  [plombery.237] Executing pipeline `download_pipeline` #237 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.237] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:55.152778
+INFO  [plombery.237-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:55.152778
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #238 via trigger `every_second`
+INFO  [plombery.238] Executing pipeline `download_pipeline` #238 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.238] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:56.143051
+INFO  [plombery.238-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:56.143051
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #239 via trigger `every_second`
+INFO  [plombery.239] Executing pipeline `download_pipeline` #239 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.239] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:57.155090
+INFO  [plombery.239-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:57.155090
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #240 via trigger `every_second`
+INFO  [plombery.240] Executing pipeline `download_pipeline` #240 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.240] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:58.146833
+INFO  [plombery.240-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:58.146833
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #241 via trigger `every_second`
+INFO  [plombery.241] Executing pipeline `download_pipeline` #241 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.241] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:17:59.144874
+INFO  [plombery.241-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:17:59.144874
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #242 via trigger `every_second`
+INFO  [plombery.242] Executing pipeline `download_pipeline` #242 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.242] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:00.154762
+INFO  [plombery.242-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:00.154762
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #243 via trigger `every_second`
+INFO  [plombery.243] Executing pipeline `download_pipeline` #243 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.243] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:01.150782
+INFO  [plombery.243-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:01.150782
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #244 via trigger `every_second`
+INFO  [plombery.244] Executing pipeline `download_pipeline` #244 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.244] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:02.145062
+INFO  [plombery.244-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:02.145062
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #245 via trigger `every_second`
+INFO  [plombery.245] Executing pipeline `download_pipeline` #245 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.245] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:03.143226
+INFO  [plombery.245-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:03.143226
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #246 via trigger `every_second`
+INFO  [plombery.246] Executing pipeline `download_pipeline` #246 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.246] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:04.156963
+INFO  [plombery.246-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:04.156963
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #247 via trigger `every_second`
+INFO  [plombery.247] Executing pipeline `download_pipeline` #247 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.247] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:05.151016
+INFO  [plombery.247-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:05.151016
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #248 via trigger `every_second`
+INFO  [plombery.248] Executing pipeline `download_pipeline` #248 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.248] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:06.147199
+INFO  [plombery.248-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:06.147199
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #249 via trigger `every_second`
+INFO  [plombery.249] Executing pipeline `download_pipeline` #249 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.249] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:07.143238
+INFO  [plombery.249-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:07.143238
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #250 via trigger `every_second`
+INFO  [plombery.250] Executing pipeline `download_pipeline` #250 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.250] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:08.157251
+INFO  [plombery.250-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:08.157251
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #251 via trigger `every_second`
+INFO  [plombery.251] Executing pipeline `download_pipeline` #251 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.251] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:09.157302
+INFO  [plombery.251-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:09.157302
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #252 via trigger `every_second`
+INFO  [plombery.252] Executing pipeline `download_pipeline` #252 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.252] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:10.151074
+INFO  [plombery.252-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:10.151074
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #253 via trigger `every_second`
+INFO  [plombery.253] Executing pipeline `download_pipeline` #253 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.253] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:11.155084
+INFO  [plombery.253-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:11.155084
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #254 via trigger `every_second`
+INFO  [plombery.254] Executing pipeline `download_pipeline` #254 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.254] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:12.147378
+INFO  [plombery.254-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:12.147378
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #255 via trigger `every_second`
+INFO  [plombery.255] Executing pipeline `download_pipeline` #255 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.255] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:13.145073
+INFO  [plombery.255-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:13.145073
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #256 via trigger `every_second`
+INFO  [plombery.256] Executing pipeline `download_pipeline` #256 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.256] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:14.145017
+INFO  [plombery.256-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:14.145017
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #257 via trigger `every_second`
+INFO  [plombery.257] Executing pipeline `download_pipeline` #257 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.257] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:15.157128
+INFO  [plombery.257-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:15.157128
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #258 via trigger `every_second`
+INFO  [plombery.258] Executing pipeline `download_pipeline` #258 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.258] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:16.143101
+INFO  [plombery.258-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:16.143101
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #259 via trigger `every_second`
+INFO  [plombery.259] Executing pipeline `download_pipeline` #259 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.259] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:17.155172
+INFO  [plombery.259-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:17.155172
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #260 via trigger `every_second`
+INFO  [plombery.260] Executing pipeline `download_pipeline` #260 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.260] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:18.149209
+INFO  [plombery.260-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:18.149209
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #261 via trigger `every_second`
+INFO  [plombery.261] Executing pipeline `download_pipeline` #261 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.261] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:19.149135
+INFO  [plombery.261-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:19.149135
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #262 via trigger `every_second`
+INFO  [plombery.262] Executing pipeline `download_pipeline` #262 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.262] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:20.143070
+INFO  [plombery.262-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:20.143070
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #263 via trigger `every_second`
+INFO  [plombery.263] Executing pipeline `download_pipeline` #263 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.263] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:21.147203
+INFO  [plombery.263-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:21.147203
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #264 via trigger `every_second`
+INFO  [plombery.264] Executing pipeline `download_pipeline` #264 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.264] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:22.153556
+INFO  [plombery.264-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:22.153556
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #265 via trigger `every_second`
+INFO  [plombery.265] Executing pipeline `download_pipeline` #265 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.265] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:23.147434
+INFO  [plombery.265-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:23.147434
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #266 via trigger `every_second`
+INFO  [plombery.266] Executing pipeline `download_pipeline` #266 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.266] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:24.143419
+INFO  [plombery.266-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:24.143419
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #267 via trigger `every_second`
+INFO  [plombery.267] Executing pipeline `download_pipeline` #267 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.267] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:25.151232
+INFO  [plombery.267-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:25.151232
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #268 via trigger `every_second`
+INFO  [plombery.268] Executing pipeline `download_pipeline` #268 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.268] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:26.143518
+INFO  [plombery.268-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:26.143518
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #269 via trigger `every_second`
+INFO  [plombery.269] Executing pipeline `download_pipeline` #269 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.269] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:27.151280
+INFO  [plombery.269-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:27.151280
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #270 via trigger `every_second`
+INFO  [plombery.270] Executing pipeline `download_pipeline` #270 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.270] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:28.147142
+INFO  [plombery.270-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:28.147142
+INFO:     127.0.0.1:58291 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
 INFO:     Shutting down
 INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
-INFO:     Finished server process [33468]
-INFO:     Started server process [18100]
+INFO:     Finished server process [34020]
+INFO:     Started server process [34672]
 INFO:     Waiting for application startup.
 Running all migrations from base to head...
 INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:56648 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:57757 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+Executing pipeline `download_pipeline` #271 via trigger `every_second`
+INFO  [plombery.271] Executing pipeline `download_pipeline` #271 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.271] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:33.072275
+INFO  [plombery.271-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:33.072275
 Alembic migrations complete.
-INFO:     127.0.0.1:64712 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49487 - "GET /api/runs/5 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET /api/runs/5/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49487 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49487 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:49487 - "GET /assets/index-D7hlsBy4.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:55437 - "GET /assets/index-CZhli8kz.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:55437 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET /logo.svg HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:55437 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49487 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49452 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:49487 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:49487 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50135 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:49487 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:50480 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:55437 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49487 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49487 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:53768 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:49487 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49487 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:54611 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:55437 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55437 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49487 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63086 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58747 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58747 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58747 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #6 via trigger `_manual`
-INFO  [plombery.6] Executing pipeline `download_pipeline` #6 via trigger `_manual`
+INFO:     127.0.0.1:57868 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #272 via trigger `every_second`
+INFO  [plombery.272] Executing pipeline `download_pipeline` #272 via trigger `every_second`
 Executing task download_and_delete_mp4
-INFO  [plombery.6] Executing task download_and_delete_mp4
-Running download_and_delete_mp4 at 2025-12-09 17:22:48.184142
-INFO:     127.0.0.1:58747 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63086 - "GET /api/runs/6 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63086 - "GET /api/runs/6/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61389 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64963 - "GET /api/runs/6 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60278 - "GET /api/runs/6/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60278 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64963 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64963 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64963 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #7 via trigger `_manual`
-INFO  [plombery.7] Executing pipeline `download_pipeline` #7 via trigger `_manual`
+INFO  [plombery.272] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:34.075564
+INFO  [plombery.272-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:34.075564
+INFO:     127.0.0.1:57868 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65519 - "GET /api/pipelines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57868 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #273 via trigger `every_second`
+INFO  [plombery.273] Executing pipeline `download_pipeline` #273 via trigger `every_second`
 Executing task download_and_delete_mp4
-INFO  [plombery.7] Executing task download_and_delete_mp4
-Running download_and_delete_mp4 at 2025-12-09 17:49:11.222804
-INFO:     127.0.0.1:64963 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60278 - "GET /api/runs/7 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60278 - "GET /api/runs/7/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49452 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59255 - "GET /api/runs/7 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:65519 - "GET /api/runs/7/logs HTTP/1.1" 200 OK
+INFO  [plombery.273] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:35.081551
+INFO  [plombery.273-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:35.081551
+INFO:     127.0.0.1:57868 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #274 via trigger `every_second`
+INFO  [plombery.274] Executing pipeline `download_pipeline` #274 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.274] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:36.072114
+INFO  [plombery.274-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:36.072114
+INFO:     127.0.0.1:57868 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #275 via trigger `every_second`
+INFO  [plombery.275] Executing pipeline `download_pipeline` #275 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.275] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:37.077819
+INFO  [plombery.275-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:37.077819
+INFO:     127.0.0.1:57868 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57868 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:56681 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:57868 - "GET /api/auth/whoami HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57868 - "GET /api/pipelines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #276 via trigger `every_second`
+INFO  [plombery.276] Executing pipeline `download_pipeline` #276 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.276] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:38.077286
+INFO  [plombery.276-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:38.077286
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65519 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:58679 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:65519 - "GET /api/auth/whoami HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65519 - "GET /api/pipelines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57868 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #277 via trigger `every_second`
+INFO  [plombery.277] Executing pipeline `download_pipeline` #277 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.277] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:39.077424
+INFO  [plombery.277-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:39.077424
+INFO:     127.0.0.1:57868 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57868 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:65006 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:57868 - "GET /api/auth/whoami HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57868 - "GET /api/pipelines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #278 via trigger `every_second`
+INFO  [plombery.278] Executing pipeline `download_pipeline` #278 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.278] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:40.079510
+INFO  [plombery.278-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:40.079510
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #279 via trigger `every_second`
+INFO  [plombery.279] Executing pipeline `download_pipeline` #279 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.279] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:41.073279
+INFO  [plombery.279-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:41.073279
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #280 via trigger `every_second`
+INFO  [plombery.280] Executing pipeline `download_pipeline` #280 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.280] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:42.069599
+INFO  [plombery.280-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:42.069599
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #281 via trigger `every_second`
+INFO  [plombery.281] Executing pipeline `download_pipeline` #281 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.281] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:43.079409
+INFO  [plombery.281-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:43.079409
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #282 via trigger `every_second`
+INFO  [plombery.282] Executing pipeline `download_pipeline` #282 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.282] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:44.079306
+INFO  [plombery.282-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:44.079306
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #283 via trigger `every_second`
+INFO  [plombery.283] Executing pipeline `download_pipeline` #283 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.283] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:45.067417
+INFO  [plombery.283-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:45.067417
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #284 via trigger `every_second`
+INFO  [plombery.284] Executing pipeline `download_pipeline` #284 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.284] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:46.073570
+INFO  [plombery.284-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:46.073570
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #285 via trigger `every_second`
+INFO  [plombery.285] Executing pipeline `download_pipeline` #285 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.285] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:47.077392
+INFO  [plombery.285-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:47.077392
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #286 via trigger `every_second`
+INFO  [plombery.286] Executing pipeline `download_pipeline` #286 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.286] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:48.071602
+INFO  [plombery.286-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:48.071602
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #287 via trigger `every_second`
+INFO  [plombery.287] Executing pipeline `download_pipeline` #287 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.287] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:49.079608
+INFO  [plombery.287-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:49.079608
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #288 via trigger `every_second`
+INFO  [plombery.288] Executing pipeline `download_pipeline` #288 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.288] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:50.081570
+INFO  [plombery.288-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:50.081570
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #289 via trigger `every_second`
+INFO  [plombery.289] Executing pipeline `download_pipeline` #289 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.289] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:51.075479
+INFO  [plombery.289-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:51.075479
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #290 via trigger `every_second`
+INFO  [plombery.290] Executing pipeline `download_pipeline` #290 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.290] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:52.081709
+INFO  [plombery.290-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:52.081709
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #291 via trigger `every_second`
+INFO  [plombery.291] Executing pipeline `download_pipeline` #291 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.291] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:53.081532
+INFO  [plombery.291-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:53.081532
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #292 via trigger `every_second`
+INFO  [plombery.292] Executing pipeline `download_pipeline` #292 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.292] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:54.081714
+INFO  [plombery.292-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:54.081714
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #293 via trigger `every_second`
+INFO  [plombery.293] Executing pipeline `download_pipeline` #293 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.293] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:55.073540
+INFO  [plombery.293-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:55.073540
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #294 via trigger `every_second`
+INFO  [plombery.294] Executing pipeline `download_pipeline` #294 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.294] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:56.079573
+INFO  [plombery.294-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:56.079573
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #295 via trigger `every_second`
+INFO  [plombery.295] Executing pipeline `download_pipeline` #295 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.295] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:57.077694
+INFO  [plombery.295-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:57.077694
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #296 via trigger `every_second`
+INFO  [plombery.296] Executing pipeline `download_pipeline` #296 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.296] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:58.071767
+INFO  [plombery.296-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:58.071767
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #297 via trigger `every_second`
+INFO  [plombery.297] Executing pipeline `download_pipeline` #297 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.297] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:18:59.069847
+INFO  [plombery.297-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:18:59.069847
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #298 via trigger `every_second`
+INFO  [plombery.298] Executing pipeline `download_pipeline` #298 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.298] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:00.079807
+INFO  [plombery.298-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:00.079807
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #299 via trigger `every_second`
+INFO  [plombery.299] Executing pipeline `download_pipeline` #299 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.299] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:01.073816
+INFO  [plombery.299-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:01.073816
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #300 via trigger `every_second`
+INFO  [plombery.300] Executing pipeline `download_pipeline` #300 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.300] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:02.072383
+INFO  [plombery.300-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:02.072383
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #301 via trigger `every_second`
+INFO  [plombery.301] Executing pipeline `download_pipeline` #301 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.301] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:03.077909
+INFO  [plombery.301-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:03.077909
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61096 - "GET /api/pipelines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #302 via trigger `every_second`
+INFO  [plombery.302] Executing pipeline `download_pipeline` #302 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.302] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:04.068009
+INFO  [plombery.302-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:04.068009
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #303 via trigger `every_second`
+INFO  [plombery.303] Executing pipeline `download_pipeline` #303 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.303] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:05.077591
+INFO  [plombery.303-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:05.077591
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #304 via trigger `every_second`
+INFO  [plombery.304] Executing pipeline `download_pipeline` #304 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.304] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:06.081835
+INFO  [plombery.304-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:06.081835
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #305 via trigger `every_second`
+INFO  [plombery.305] Executing pipeline `download_pipeline` #305 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.305] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:07.081990
+INFO  [plombery.305-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:07.081990
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #306 via trigger `every_second`
+INFO  [plombery.306] Executing pipeline `download_pipeline` #306 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.306] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:08.077713
+INFO  [plombery.306-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:08.077713
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #307 via trigger `every_second`
+INFO  [plombery.307] Executing pipeline `download_pipeline` #307 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.307] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:09.069804
+INFO  [plombery.307-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:09.069804
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+Executing pipeline `download_pipeline` #308 via trigger `every_second`
+INFO  [plombery.308] Executing pipeline `download_pipeline` #308 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.308] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:10.067916
+INFO  [plombery.308-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:10.067916
+INFO:     127.0.0.1:65519 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
 INFO:     Shutting down
+Executing pipeline `download_pipeline` #309 via trigger `every_second`
+INFO  [plombery.309] Executing pipeline `download_pipeline` #309 via trigger `every_second`
+Executing task download_and_delete_mp4
+INFO  [plombery.309] Executing task download_and_delete_mp4
+Running download_and_delete_mp4 at 2025-12-09 19:19:11.079640
+INFO  [plombery.309-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 19:19:11.079640
 INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
-INFO:     Finished server process [18100]
-INFO:     Started server process [34436]
-INFO:     Waiting for application startup.
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:50939 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Alembic migrations complete.
-INFO:     127.0.0.1:55661 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57546 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57546 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:55661 - "GET /assets/index-CZhli8kz.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:57546 - "GET /assets/index-D7hlsBy4.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:59633 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:57546 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57546 - "GET /logo.svg HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:57546 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55661 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55661 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55661 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #8 via trigger `_manual`
-INFO  [plombery.8] Executing pipeline `download_pipeline` #8 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.8] Executing task download_and_delete_mp4
-E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
-  warnings.warn(
-Cancellation requested; stopping current tasks.
-ERROR [apscheduler.executors.default] Job "run (trigger: date[2025-12-09 17:49:53 +08], pending)" raised an exception
-Traceback (most recent call last):
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
-    retval = await job.func(*job.args, **job.kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 130, in run
-    flowing_data = await _execute_task(task, flowing_data, pipeline_params)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 208, in _execute_task
-    result = await task.run(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\pipeline\__init__.py", line 15, in wrapper_decorator
-    value = await func(*args, **kwargs)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\cron_apps\jobs\task.py", line 28, in download_and_delete_mp4
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py", line 89, in _inner_fn
-    return fn(*args, **kwargs)
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1024, in hf_hub_download
-    return _hf_hub_download_to_cache_dir(
-        # Destination
-    ...<15 lines>...
-        dry_run=dry_run,
-    )
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1240, in _hf_hub_download_to_cache_dir
-    _download_to_tmp_and_move(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        incomplete_path=Path(blob_path + ".incomplete"),
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<8 lines>...
-        tqdm_class=tqdm_class,
-        ^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1864, in _download_to_tmp_and_move
-    xet_get(
-    ~~~~~~~^
-        incomplete_path=incomplete_path,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        tqdm_class=tqdm_class,
-        ^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 588, in xet_get
-    download_files(
-    ~~~~~~~~~~~~~~^
-        xet_download_info,
-        ^^^^^^^^^^^^^^^^^^
-    ...<3 lines>...
-        progress_updater=[progress_updater],
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-KeyboardInterrupt
-INFO:     127.0.0.1:63715 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:50760 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:63060 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:63404 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:51961 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:52173 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:58526 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:61992 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:59664 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:60138 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Running download_and_delete_mp4 at 2025-12-09 17:49:53.219054
-仓库文件总数：185
-已下载：.gitattributes -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-已下载：LICENSE-CODE -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-已下载：LICENSE-MODEL -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-已下载：README.md -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-已下载：README_WEIGHTS.md -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-已下载：config.json -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-已下载：configuration_deepseek.py -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-已下载：figures/benchmark.png -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-已下载：figures/niah.png -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-已下载：inference/configs/config_16B.json -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-已下载：inference/configs/config_236B.json -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_236B.json
-已下载：inference/configs/config_671B.json -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_671B.json
-已下载：inference/convert.py -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\convert.py
-已下载：inference/fp8_cast_bf16.py -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\fp8_cast_bf16.py
-已下载：inference/generate.py -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\generate.py
-已下载：inference/kernel.py -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\kernel.py
-已下载：inference/model.py -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\model.py
-已下载：inference/requirements.txt -> tmp\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\requirements.txt
-INFO:     127.0.0.1:49452 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:65520 - "GET /api/runs/8 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:65520 - "GET /api/runs/8/logs HTTP/1.1" 200 OK
-INFO:     Started server process [35896]
-INFO:     Waiting for application startup.
-已清除代理设置。
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:58169 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Alembic migrations complete.
-INFO:     127.0.0.1:49540 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53884 - "GET /api/runs/8 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49454 - "GET /api/runs/8/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49454 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53884 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53884 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:53884 - "GET /assets/index-D7hlsBy4.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:53884 - "GET /assets/index-CZhli8kz.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:64897 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:53884 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53884 - "GET /logo.svg HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:53884 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49454 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49454 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49454 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #9 via trigger `_manual`
-INFO  [plombery.9] Executing pipeline `download_pipeline` #9 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.9] Executing task download_and_delete_mp4
-E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
-  warnings.warn(
-Cancellation requested; stopping current tasks.
-ERROR [apscheduler.executors.default] Job "run (trigger: date[2025-12-09 18:25:41 +08], pending)" raised an exception
-Traceback (most recent call last):
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
-    retval = await job.func(*job.args, **job.kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 130, in run
-    flowing_data = await _execute_task(task, flowing_data, pipeline_params)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 208, in _execute_task
-    result = await task.run(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\pipeline\__init__.py", line 15, in wrapper_decorator
-    value = await func(*args, **kwargs)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\cron_apps\jobs\task.py", line 17, in download_and_delete_mp4
-    await hugging_face_hub_download.download_and_delete_mp4()
-  File "E:\cron_apps\hugging_face_hub_download.py", line 39, in download_and_delete_mp4
-    try:
-    
-    ...<4 lines>...
-            resume_download=True,  # 支持断点续传
-    
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py", line 89, in _inner_fn
-    return fn(*args, **kwargs)
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1024, in hf_hub_download
-    return _hf_hub_download_to_cache_dir(
-        # Destination
-    ...<15 lines>...
-        dry_run=dry_run,
-    )
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1240, in _hf_hub_download_to_cache_dir
-    _download_to_tmp_and_move(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        incomplete_path=Path(blob_path + ".incomplete"),
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<8 lines>...
-        tqdm_class=tqdm_class,
-        ^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1864, in _download_to_tmp_and_move
-    xet_get(
-    ~~~~~~~^
-        incomplete_path=incomplete_path,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        tqdm_class=tqdm_class,
-        ^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 588, in xet_get
-    download_files(
-    ~~~~~~~~~~~~~~^
-        xet_download_info,
-        ^^^^^^^^^^^^^^^^^^
-    ...<3 lines>...
-        progress_updater=[progress_updater],
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-KeyboardInterrupt
-INFO:     127.0.0.1:59316 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:51455 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:58844 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:60894 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Running download_and_delete_mp4 at 2025-12-09 18:25:41.251556
-仓库文件总数：185
-正在下载：model-00158-of-000163.safetensors
-INFO:     127.0.0.1:56510 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51268 - "GET /api/runs/9 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51268 - "GET /api/runs/9/logs HTTP/1.1" 200 OK
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 11, in <module>
-    logger.info("已清除代理设置。")
-    ^^^^^^
-NameError: name 'logger' is not defined
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 11, in <module>
-    logger.info("已清除代理设置。")
-    ^^^^^^
-NameError: name 'logger' is not defined
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 11, in <module>
-    logger.info("已清除代理设置。")
-    ^^^^^^
-NameError: name 'logger' is not defined
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 11, in <module>
-    logger.info("已清除代理设置。")
-    ^^^^^^
-NameError: name 'logger' is not defined
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 11, in <module>
-    logger.info("已清除代理设置。")
-    ^^^^^^
-NameError: name 'logger' is not defined
-INFO:     Started server process [11076]
-INFO:     Waiting for application startup.
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-Alembic migrations complete.
-INFO:     127.0.0.1:59613 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:53223 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:59613 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59613 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61161 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61161 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61161 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #10 via trigger `_manual`
-INFO  [plombery.10] Executing pipeline `download_pipeline` #10 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.10] Executing task download_and_delete_mp4
-仓库文件总数：185
-INFO  [plombery] 仓库文件总数：185
-正在下载：model-00158-of-000163.safetensors
-INFO  [plombery] 正在下载：model-00158-of-000163.safetensors
-E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
-  warnings.warn(
-Cancellation requested; stopping current tasks.
-ERROR [apscheduler.executors.default] Job "run (trigger: date[2025-12-09 18:29:56 +08], pending)" raised an exception
-Traceback (most recent call last):
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
-    retval = await job.func(*job.args, **job.kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 130, in run
-    flowing_data = await _execute_task(task, flowing_data, pipeline_params)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 208, in _execute_task
-    result = await task.run(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\pipeline\__init__.py", line 15, in wrapper_decorator
-    value = await func(*args, **kwargs)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\cron_apps\jobs\task.py", line 17, in download_and_delete_mp4
-    await hugging_face_hub_download.download_and_delete_mp4()
-  File "E:\cron_apps\hugging_face_hub_download.py", line 40, in download_and_delete_mp4
-    _logger.info(f"正在下载：{filename}")
-                     ^^^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-            cache_dir=local_dir,  # 本地缓存目录
-    
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py", line 89, in _inner_fn
-    return fn(*args, **kwargs)
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1024, in hf_hub_download
-    return _hf_hub_download_to_cache_dir(
-        # Destination
-    ...<15 lines>...
-        dry_run=dry_run,
-    )
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1240, in _hf_hub_download_to_cache_dir
-    _download_to_tmp_and_move(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        incomplete_path=Path(blob_path + ".incomplete"),
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<8 lines>...
-        tqdm_class=tqdm_class,
-        ^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1864, in _download_to_tmp_and_move
-    xet_get(
-    ~~~~~~~^
-        incomplete_path=incomplete_path,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        tqdm_class=tqdm_class,
-        ^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 588, in xet_get
-    download_files(
-    ~~~~~~~~~~~~~~^
-        xet_download_info,
-        ^^^^^^^^^^^^^^^^^^
-    ...<3 lines>...
-        progress_updater=[progress_updater],
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-KeyboardInterrupt
-INFO:     127.0.0.1:60813 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:53677 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Running download_and_delete_mp4 at 2025-12-09 18:29:56.330494
-INFO:     127.0.0.1:58190 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64571 - "GET /api/runs/10 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64571 - "GET /api/runs/10/logs HTTP/1.1" 200 OK
-INFO:     Started server process [10048]
-INFO:     Waiting for application startup.
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-Alembic migrations complete.
-INFO:     127.0.0.1:64401 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64401 - "GET /api/runs/10 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64401 - "GET /api/runs/10/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49622 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:64401 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56532 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56532 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:64039 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:56532 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56532 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64401 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64401 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:64401 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #11 via trigger `_manual`
-INFO  [plombery.11] Executing pipeline `download_pipeline` #11 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.11] Executing task download_and_delete_mp4
-仓库文件总数：185
-INFO  [plombery] 仓库文件总数：185
-正在下载：.gitattributes
-INFO  [plombery] 正在下载：.gitattributes
-E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
-  warnings.warn(
-已下载：.gitattributes -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-INFO  [plombery] 已下载：.gitattributes -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-正在下载：LICENSE-CODE
-INFO  [plombery] 正在下载：LICENSE-CODE
-已下载：LICENSE-CODE -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-INFO  [plombery] 已下载：LICENSE-CODE -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-正在下载：LICENSE-MODEL
-INFO  [plombery] 正在下载：LICENSE-MODEL
-已下载：LICENSE-MODEL -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-INFO  [plombery] 已下载：LICENSE-MODEL -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-正在下载：README.md
-INFO  [plombery] 正在下载：README.md
-已下载：README.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-INFO  [plombery] 已下载：README.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-正在下载：README_WEIGHTS.md
-INFO  [plombery] 正在下载：README_WEIGHTS.md
-已下载：README_WEIGHTS.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-INFO  [plombery] 已下载：README_WEIGHTS.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-正在下载：config.json
-INFO  [plombery] 正在下载：config.json
-已下载：config.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-INFO  [plombery] 已下载：config.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-正在下载：configuration_deepseek.py
-INFO  [plombery] 正在下载：configuration_deepseek.py
-已下载：configuration_deepseek.py -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-INFO  [plombery] 已下载：configuration_deepseek.py -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-正在下载：figures/benchmark.png
-INFO  [plombery] 正在下载：figures/benchmark.png
-已下载：figures/benchmark.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-INFO  [plombery] 已下载：figures/benchmark.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-正在下载：figures/niah.png
-INFO  [plombery] 正在下载：figures/niah.png
-已下载：figures/niah.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-INFO  [plombery] 已下载：figures/niah.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-正在下载：inference/configs/config_16B.json
-INFO  [plombery] 正在下载：inference/configs/config_16B.json
-已下载：inference/configs/config_16B.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-INFO  [plombery] 已下载：inference/configs/config_16B.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-下载完成
-INFO  [plombery] 下载完成
-tmp/deepseek-ai/DeepSeek-V3 已删除
-INFO  [plombery] tmp/deepseek-ai/DeepSeek-V3 已删除
-Running download_and_delete_mp4 at 2025-12-09 18:31:27.523164
-INFO:     127.0.0.1:51366 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63824 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51366 - "GET /api/runs/11 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51366 - "GET /api/runs/11/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54474 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50586 - "GET /api/runs/11 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63965 - "GET /api/runs/11/logs HTTP/1.1" 200 OK
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [10048]
-INFO:     Started server process [36240]
-INFO:     Waiting for application startup.
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:60842 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Alembic migrations complete.
-INFO:     127.0.0.1:64117 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54168 - "GET /api/runs/11/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60588 - "GET /api/runs/11 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60588 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54168 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54168 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54168 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #12 via trigger `_manual`
-INFO  [plombery.12] Executing pipeline `download_pipeline` #12 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.12] Executing task download_and_delete_mp4
-仓库文件总数：185
-INFO  [plombery] 仓库文件总数：185
-正在下载：.gitattributes
-INFO  [plombery] 正在下载：.gitattributes
-E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
-  warnings.warn(
-已下载：.gitattributes -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-INFO  [plombery] 已下载：.gitattributes -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-正在下载：LICENSE-CODE
-INFO  [plombery] 正在下载：LICENSE-CODE
-已下载：LICENSE-CODE -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-INFO  [plombery] 已下载：LICENSE-CODE -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-正在下载：LICENSE-MODEL
-INFO  [plombery] 正在下载：LICENSE-MODEL
-已下载：LICENSE-MODEL -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-INFO  [plombery] 已下载：LICENSE-MODEL -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-正在下载：README.md
-INFO  [plombery] 正在下载：README.md
-已下载：README.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-INFO  [plombery] 已下载：README.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-正在下载：README_WEIGHTS.md
-INFO  [plombery] 正在下载：README_WEIGHTS.md
-已下载：README_WEIGHTS.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-INFO  [plombery] 已下载：README_WEIGHTS.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-正在下载：config.json
-INFO  [plombery] 正在下载：config.json
-已下载：config.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-INFO  [plombery] 已下载：config.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-正在下载：configuration_deepseek.py
-INFO  [plombery] 正在下载：configuration_deepseek.py
-已下载：configuration_deepseek.py -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-INFO  [plombery] 已下载：configuration_deepseek.py -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-正在下载：figures/benchmark.png
-INFO  [plombery] 正在下载：figures/benchmark.png
-已下载：figures/benchmark.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-INFO  [plombery] 已下载：figures/benchmark.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-正在下载：figures/niah.png
-INFO  [plombery] 正在下载：figures/niah.png
-已下载：figures/niah.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-INFO  [plombery] 已下载：figures/niah.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-正在下载：inference/configs/config_16B.json
-INFO  [plombery] 正在下载：inference/configs/config_16B.json
-已下载：inference/configs/config_16B.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-INFO  [plombery] 已下载：inference/configs/config_16B.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-下载完成
-INFO  [plombery] 下载完成
-tmp/deepseek-ai/DeepSeek-V3 已删除
-INFO  [plombery] tmp/deepseek-ai/DeepSeek-V3 已删除
-Running download_and_delete_mp4 at 2025-12-09 18:33:36.529975
-INFO:     127.0.0.1:54606 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62377 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54606 - "GET /api/runs/12 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54606 - "GET /api/runs/12/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55634 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52575 - "GET /api/runs/12 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54730 - "GET /api/runs/12/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52896 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50060 - "GET /api/runs/12 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57171 - "GET /api/runs/12/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53506 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62675 - "GET /api/runs/12 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52254 - "GET /api/runs/12/logs HTTP/1.1" 200 OK
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [36240]
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x00000193464AA110>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x0000028977E9A0C0>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000001E76DEBA110>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000001FB2C03A070>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000002118FD6A070>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x00000221ADD6A160>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000001BF7F13A0C0>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000002195259A110>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000001206AA19F80>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000001F6821CA020>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x00000249F115A0C0>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000001B1CDD3A070>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000002886D31A200>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000001B15CE99FD0>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x0000011A51D3A0C0>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x0000029AEDA4A0C0>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000002B3FF96A0C0>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x0000015DD1E4A250>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000002BE6CA30040>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x000001BEBB91A070>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x00000126A58FA070>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x0000019ECDB6A200>
-Traceback (most recent call last):
-  File "E:\cron_apps\app.py", line 15, in <module>
-    from jobs.task import download_and_delete_mp4
-  File "E:\cron_apps\jobs\task.py", line 9, in <module>
-    _logger = get_logger()
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\logger\__init__.py", line 18, in get_logger
-    pipeline = pipeline_context.get()
-LookupError: <ContextVar name='pipeline' at 0x00000232BF2B0040>
-INFO:     Started server process [23224]
-INFO:     Waiting for application startup.
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-Alembic migrations complete.
-INFO:     127.0.0.1:62224 - "GET /pipelines/download_pipeline/triggers/_manual/runs/12 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59849 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:62224 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63631 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62224 - "GET /api/runs/12 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62224 - "GET /api/runs/12/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:62224 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63631 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63631 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63631 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #13 via trigger `_manual`
-INFO  [plombery.13] Executing pipeline `download_pipeline` #13 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.13] Executing task download_and_delete_mp4
-Running download_and_delete_mp4 at 2025-12-09 18:40:04.557816
-INFO  [plombery.13-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 18:40:04.557816
-仓库文件总数：185
-INFO  [plombery.13-download_and_delete_mp4] 仓库文件总数：185
-正在下载：.gitattributes
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：.gitattributes
-E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
-  warnings.warn(
-已下载：.gitattributes -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-INFO  [plombery.13-download_and_delete_mp4] 已下载：.gitattributes -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-正在下载：LICENSE-CODE
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：LICENSE-CODE
-已下载：LICENSE-CODE -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-INFO  [plombery.13-download_and_delete_mp4] 已下载：LICENSE-CODE -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-正在下载：LICENSE-MODEL
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：LICENSE-MODEL
-已下载：LICENSE-MODEL -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-INFO  [plombery.13-download_and_delete_mp4] 已下载：LICENSE-MODEL -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-正在下载：README.md
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：README.md
-已下载：README.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-INFO  [plombery.13-download_and_delete_mp4] 已下载：README.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-正在下载：README_WEIGHTS.md
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：README_WEIGHTS.md
-已下载：README_WEIGHTS.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-INFO  [plombery.13-download_and_delete_mp4] 已下载：README_WEIGHTS.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-正在下载：config.json
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：config.json
-已下载：config.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-INFO  [plombery.13-download_and_delete_mp4] 已下载：config.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-正在下载：configuration_deepseek.py
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：configuration_deepseek.py
-已下载：configuration_deepseek.py -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-INFO  [plombery.13-download_and_delete_mp4] 已下载：configuration_deepseek.py -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-正在下载：figures/benchmark.png
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：figures/benchmark.png
-已下载：figures/benchmark.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-INFO  [plombery.13-download_and_delete_mp4] 已下载：figures/benchmark.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-正在下载：figures/niah.png
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：figures/niah.png
-已下载：figures/niah.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-INFO  [plombery.13-download_and_delete_mp4] 已下载：figures/niah.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-正在下载：inference/configs/config_16B.json
-INFO  [plombery.13-download_and_delete_mp4] 正在下载：inference/configs/config_16B.json
-已下载：inference/configs/config_16B.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-INFO  [plombery.13-download_and_delete_mp4] 已下载：inference/configs/config_16B.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-下载完成
-INFO  [plombery.13-download_and_delete_mp4] 下载完成
-tmp/deepseek-ai/DeepSeek-V3 已删除
-INFO  [plombery.13-download_and_delete_mp4] tmp/deepseek-ai/DeepSeek-V3 已删除
-INFO:     127.0.0.1:65519 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50173 - "GET /api/runs/13 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50173 - "GET /api/runs/13/logs HTTP/1.1" 200 OK
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [23224]
-INFO:     Started server process [7128]
-INFO:     Waiting for application startup.
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:56491 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Alembic migrations complete.
-INFO:     127.0.0.1:54485 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51541 - "GET /api/runs/13 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63243 - "GET /api/runs/13/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63243 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51541 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51541 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51541 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #14 via trigger `_manual`
-INFO  [plombery.14] Executing pipeline `download_pipeline` #14 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.14] Executing task download_and_delete_mp4
-Running download_and_delete_mp4 at 2025-12-09 18:41:45.673558
-INFO  [plombery.14-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 18:41:45.673558
-仓库文件总数：185
-INFO  [plombery.14-download_and_delete_mp4] 仓库文件总数：185
-正在下载：.gitattributes
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：.gitattributes
-E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
-  warnings.warn(
-已下载：.gitattributes -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-INFO  [plombery.14-download_and_delete_mp4] 已下载：.gitattributes -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\.gitattributes
-正在下载：LICENSE-CODE
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：LICENSE-CODE
-已下载：LICENSE-CODE -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-INFO  [plombery.14-download_and_delete_mp4] 已下载：LICENSE-CODE -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-CODE
-正在下载：LICENSE-MODEL
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：LICENSE-MODEL
-已下载：LICENSE-MODEL -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-INFO  [plombery.14-download_and_delete_mp4] 已下载：LICENSE-MODEL -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\LICENSE-MODEL
-正在下载：README.md
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：README.md
-已下载：README.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-INFO  [plombery.14-download_and_delete_mp4] 已下载：README.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README.md
-正在下载：README_WEIGHTS.md
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：README_WEIGHTS.md
-已下载：README_WEIGHTS.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-INFO  [plombery.14-download_and_delete_mp4] 已下载：README_WEIGHTS.md -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\README_WEIGHTS.md
-正在下载：config.json
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：config.json
-已下载：config.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-INFO  [plombery.14-download_and_delete_mp4] 已下载：config.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\config.json
-正在下载：configuration_deepseek.py
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：configuration_deepseek.py
-已下载：configuration_deepseek.py -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-INFO  [plombery.14-download_and_delete_mp4] 已下载：configuration_deepseek.py -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\configuration_deepseek.py
-正在下载：figures/benchmark.png
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：figures/benchmark.png
-已下载：figures/benchmark.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-INFO  [plombery.14-download_and_delete_mp4] 已下载：figures/benchmark.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\benchmark.png
-正在下载：figures/niah.png
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：figures/niah.png
-已下载：figures/niah.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-INFO  [plombery.14-download_and_delete_mp4] 已下载：figures/niah.png -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\figures\niah.png
-正在下载：inference/configs/config_16B.json
-INFO  [plombery.14-download_and_delete_mp4] 正在下载：inference/configs/config_16B.json
-已下载：inference/configs/config_16B.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-INFO  [plombery.14-download_and_delete_mp4] 已下载：inference/configs/config_16B.json -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\inference\configs\config_16B.json
-下载完成
-INFO  [plombery.14-download_and_delete_mp4] 下载完成
-tmp/deepseek-ai/DeepSeek-V3 已删除
-INFO  [plombery.14-download_and_delete_mp4] tmp/deepseek-ai/DeepSeek-V3 已删除
-INFO:     127.0.0.1:52036 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60082 - "GET /api/runs/14 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60082 - "GET /api/runs/14/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63602 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61504 - "GET /api/runs/14 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51994 - "GET /api/runs/14/logs HTTP/1.1" 200 OK
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [7128]
-INFO:     Started server process [28468]
-INFO:     Waiting for application startup.
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:64251 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Alembic migrations complete.
-INFO:     127.0.0.1:60660 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57780 - "GET /api/runs/14 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50220 - "GET /api/runs/14/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50220 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57780 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57780 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57780 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #15 via trigger `_manual`
-INFO  [plombery.15] Executing pipeline `download_pipeline` #15 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.15] Executing task download_and_delete_mp4
-Running download_and_delete_mp4 at 2025-12-09 18:44:09.718535
-INFO  [plombery.15-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 18:44:09.718535
-仓库文件总数：185
-INFO  [plombery.15-download_and_delete_mp4] 仓库文件总数：185
-下载完成
-INFO  [plombery.15-download_and_delete_mp4] 下载完成
-tmp/deepseek-ai/DeepSeek-V3 已删除
-INFO  [plombery.15-download_and_delete_mp4] tmp/deepseek-ai/DeepSeek-V3 已删除
-INFO:     127.0.0.1:57780 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50220 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57780 - "GET /api/runs/15 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57780 - "GET /api/runs/15/logs HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59831 - "GET /api/pipelines/download_pipeline HTTP/1.1" 200 OK
-INFO:     127.0.0.1:63162 - "GET /api/runs/15 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58312 - "GET /api/runs/15/logs HTTP/1.1" 200 OK
-INFO:     Shutting down
-INFO:     Waiting for application shutdown.
-INFO:     Application shutdown complete.
-INFO:     Finished server process [28468]
-INFO:     Started server process [5764]
-INFO:     Waiting for application startup.
-Running all migrations from base to head...
-INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:60499 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-Alembic migrations complete.
-INFO:     127.0.0.1:61170 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56516 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56516 - "GET / HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:62201 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:56516 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56516 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61170 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61170 - "GET /api/pipelines/download_pipeline/input-schema HTTP/1.1" 200 OK
-INFO:     127.0.0.1:61170 - "POST /api/pipelines/download_pipeline/run HTTP/1.1" 200 OK
-Executing pipeline `download_pipeline` #16 via trigger `_manual`
-INFO  [plombery.16] Executing pipeline `download_pipeline` #16 via trigger `_manual`
-Executing task download_and_delete_mp4
-INFO  [plombery.16] Executing task download_and_delete_mp4
-Running download_and_delete_mp4 at 2025-12-09 18:44:56.657904
-INFO  [plombery.16-download_and_delete_mp4] Running download_and_delete_mp4 at 2025-12-09 18:44:56.657904
-仓库文件总数：185
-INFO  [plombery.16-download_and_delete_mp4] 仓库文件总数：185
-正在下载：model-00003-of-000163.safetensors
-INFO  [plombery.16-download_and_delete_mp4] 正在下载：model-00003-of-000163.safetensors
-E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
-  warnings.warn(
-已下载：model-00003-of-000163.safetensors -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\model-00003-of-000163.safetensors
-INFO  [plombery.16-download_and_delete_mp4] 已下载：model-00003-of-000163.safetensors -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\model-00003-of-000163.safetensors
-正在下载：model-00004-of-000163.safetensors
-INFO  [plombery.16-download_and_delete_mp4] 正在下载：model-00004-of-000163.safetensors
-Cancellation requested; stopping current tasks.
-ERROR [apscheduler.executors.default] Job "run (trigger: date[2025-12-09 18:44:56 +08], pending)" raised an exception
-Traceback (most recent call last):
-  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
-    retval = await job.func(*job.args, **job.kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 130, in run
-    flowing_data = await _execute_task(task, flowing_data, pipeline_params)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 208, in _execute_task
-    result = await task.run(*args, **kwargs)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\apps\miniconda3\Lib\site-packages\plombery\pipeline\__init__.py", line 15, in wrapper_decorator
-    value = await func(*args, **kwargs)
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "E:\cron_apps\jobs\task.py", line 20, in download_and_delete_mp4
-    await hugging_face_hub_download.download_and_delete_mp4()
-  File "E:\cron_apps\download_api\hugging_face_hub_download.py", line 46, in download_and_delete_mp4
-    local_path = hf_hub_download(
-        repo_id=repo_id,
-    ...<2 lines>...
-        resume_download=True,  # 支持断点续传
-    )
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py", line 89, in _inner_fn
-    return fn(*args, **kwargs)
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1024, in hf_hub_download
-    return _hf_hub_download_to_cache_dir(
-        # Destination
-    ...<15 lines>...
-        dry_run=dry_run,
-    )
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1240, in _hf_hub_download_to_cache_dir
-    _download_to_tmp_and_move(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        incomplete_path=Path(blob_path + ".incomplete"),
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<8 lines>...
-        tqdm_class=tqdm_class,
-        ^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1864, in _download_to_tmp_and_move
-    xet_get(
-    ~~~~~~~^
-        incomplete_path=incomplete_path,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ...<4 lines>...
-        tqdm_class=tqdm_class,
-        ^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 588, in xet_get
-    download_files(
-    ~~~~~~~~~~~~~~^
-        xet_download_info,
-        ^^^^^^^^^^^^^^^^^^
-    ...<3 lines>...
-        progress_updater=[progress_updater],
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-KeyboardInterrupt
-INFO:     127.0.0.1:56483 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:59711 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:55724 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:53624 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:49462 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:60969 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:52198 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:55910 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:63763 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:55611 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:55380 - "GET /assets/index-CZhli8kz.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:53494 - "GET /assets/index-D7hlsBy4.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:52597 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
-INFO:     127.0.0.1:53494 - "GET /api/auth/whoami HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53494 - "GET /logo.svg HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:53494 - "GET /api/pipelines/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55380 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK
+INFO:     Finished server process [34672]
