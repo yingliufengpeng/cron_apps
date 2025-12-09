@@ -1113,3 +1113,7 @@ INFO  [plombery.16-download_and_delete_mp4] 仓库文件总数：185
 INFO  [plombery.16-download_and_delete_mp4] 正在下载：model-00003-of-000163.safetensors
 E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
   warnings.warn(
+已下载：model-00003-of-000163.safetensors -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\model-00003-of-000163.safetensors
+INFO  [plombery.16-download_and_delete_mp4] 已下载：model-00003-of-000163.safetensors -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\model-00003-of-000163.safetensors
+正在下载：model-00004-of-000163.safetensors
+INFO  [plombery.16-download_and_delete_mp4] 正在下载：model-00004-of-000163.safetensors

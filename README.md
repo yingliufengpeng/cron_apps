@@ -1,6 +1,12 @@
-
+ 
+ # 安装
+    pip install -r requirements.txt
+    
+ 
 # 服务启动  
-  python  app.py
+  python  app.py    (端口默认8000)
+  
+  或者 
   
   start run_schedule.bat
   
