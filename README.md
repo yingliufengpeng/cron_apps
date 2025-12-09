@@ -48,7 +48,7 @@
   
   nssm set DownloadCronService AppDirectory "E:\cron_apps"
   
-  nssm.exe set DownloadCronService ObjectName ".\peng" "xxxxxx"
+  nssm.exe set DownloadCronService ObjectName ".\user" "password"
 
   
 # 启动服务/停止服务/重启 PllmberyService服务
