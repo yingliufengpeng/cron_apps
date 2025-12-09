@@ -1,0 +1,676 @@
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 18, in <module>
+    file_handler = logging.FileHandler("logs/cron.log", encoding="utf-8", delay=False)
+  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'E:\\cron_apps\\logs\\cron.log'
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 18, in <module>
+    file_handler = logging.FileHandler("logs/cron.log", encoding="utf-8", delay=False)
+  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'E:\\cron_apps\\logs\\cron.log'
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 18, in <module>
+    file_handler = logging.FileHandler("logs/cron.log", encoding="utf-8", delay=False)
+  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'E:\\cron_apps\\logs\\cron.log'
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 18, in <module>
+    file_handler = logging.FileHandler("logs/cron.log", encoding="utf-8", delay=False)
+  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1219, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ~~~~~~~~~~^^
+  File "E:\apps\miniconda3\Lib\logging\__init__.py", line 1248, in _open
+    return open_func(self.baseFilename, self.mode,
+                     encoding=self.encoding, errors=self.errors)
+PermissionError: [Errno 13] Permission denied: 'E:\\cron_apps\\logs\\cron.log'
+2025-12-09 20:14:46,924 - INFO - Running cron at 2025-12-09 20:14:46.924653
+2025-12-09 20:14:47,938 - INFO - Running cron at 2025-12-09 20:14:47.938723
+2025-12-09 20:14:48,943 - INFO - Running cron at 2025-12-09 20:14:48.942976
+2025-12-09 20:14:49,952 - INFO - Running cron at 2025-12-09 20:14:49.951966
+2025-12-09 20:14:50,956 - INFO - Running cron at 2025-12-09 20:14:50.956015
+2025-12-09 20:14:51,969 - INFO - Running cron at 2025-12-09 20:14:51.969282
+2025-12-09 20:14:52,980 - INFO - Running cron at 2025-12-09 20:14:52.980298
+2025-12-09 20:14:53,989 - INFO - Running cron at 2025-12-09 20:14:53.989266
+2025-12-09 20:14:54,992 - INFO - Running cron at 2025-12-09 20:14:54.992759
+2025-12-09 20:14:56,002 - INFO - Running cron at 2025-12-09 20:14:56.002520
+2025-12-09 20:14:57,016 - INFO - Running cron at 2025-12-09 20:14:57.016765
+2025-12-09 20:14:58,031 - INFO - Running cron at 2025-12-09 20:14:58.031406
+2025-12-09 20:14:59,035 - INFO - Running cron at 2025-12-09 20:14:59.035053
+2025-12-09 20:15:00,036 - INFO - Running cron at 2025-12-09 20:15:00.036254
+2025-12-09 20:15:01,045 - INFO - Running cron at 2025-12-09 20:15:01.045783
+2025-12-09 20:15:02,061 - INFO - Running cron at 2025-12-09 20:15:02.061321
+2025-12-09 20:15:03,069 - INFO - Running cron at 2025-12-09 20:15:03.069840
+2025-12-09 20:15:04,084 - INFO - Running cron at 2025-12-09 20:15:04.084801
+2025-12-09 20:15:05,099 - INFO - Running cron at 2025-12-09 20:15:05.099860
+2025-12-09 20:15:06,111 - INFO - Running cron at 2025-12-09 20:15:06.111267
+2025-12-09 20:15:07,122 - INFO - Running cron at 2025-12-09 20:15:07.122412
+2025-12-09 20:15:08,137 - INFO - Running cron at 2025-12-09 20:15:08.137722
+2025-12-09 20:15:09,150 - INFO - Running cron at 2025-12-09 20:15:09.150237
+2025-12-09 20:15:10,152 - INFO - Running cron at 2025-12-09 20:15:10.152045
+2025-12-09 20:15:11,163 - INFO - Running cron at 2025-12-09 20:15:11.163316
+2025-12-09 20:15:12,166 - INFO - Running cron at 2025-12-09 20:15:12.166244
+2025-12-09 20:15:13,175 - INFO - Running cron at 2025-12-09 20:15:13.175393
+2025-12-09 20:15:14,178 - INFO - Running cron at 2025-12-09 20:15:14.178403
+2025-12-09 20:15:15,186 - INFO - Running cron at 2025-12-09 20:15:15.186667
+2025-12-09 20:15:16,201 - INFO - Running cron at 2025-12-09 20:15:16.201440
+2025-12-09 20:15:17,211 - INFO - Running cron at 2025-12-09 20:15:17.211386
+2025-12-09 20:15:18,222 - INFO - Running cron at 2025-12-09 20:15:18.222013
+2025-12-09 20:15:19,226 - INFO - Running cron at 2025-12-09 20:15:19.226302
+2025-12-09 20:15:20,236 - INFO - Running cron at 2025-12-09 20:15:20.236240
+2025-12-09 20:15:21,241 - INFO - Running cron at 2025-12-09 20:15:21.241269
+2025-12-09 20:15:22,249 - INFO - Running cron at 2025-12-09 20:15:22.249866
+2025-12-09 20:15:23,260 - INFO - Running cron at 2025-12-09 20:15:23.260251
+2025-12-09 20:15:24,269 - INFO - Running cron at 2025-12-09 20:15:24.269422
+2025-12-09 20:15:25,277 - INFO - Running cron at 2025-12-09 20:15:25.277093
+2025-12-09 20:15:26,281 - INFO - Running cron at 2025-12-09 20:15:26.281721
+2025-12-09 20:15:27,295 - INFO - Running cron at 2025-12-09 20:15:27.295455
+2025-12-09 20:15:28,305 - INFO - Running cron at 2025-12-09 20:15:28.305273
+2025-12-09 20:15:29,308 - INFO - Running cron at 2025-12-09 20:15:29.308473
+2025-12-09 20:15:30,320 - INFO - Running cron at 2025-12-09 20:15:30.320027
+2025-12-09 20:15:31,333 - INFO - Running cron at 2025-12-09 20:15:31.333150
+2025-12-09 20:15:32,333 - INFO - Running cron at 2025-12-09 20:15:32.333792
+2025-12-09 20:15:33,344 - INFO - Running cron at 2025-12-09 20:15:33.344729
+2025-12-09 20:15:34,353 - INFO - Running cron at 2025-12-09 20:15:34.353295
+2025-12-09 20:15:35,370 - INFO - Running cron at 2025-12-09 20:15:35.369994
+2025-12-09 20:15:36,381 - INFO - Running cron at 2025-12-09 20:15:36.381787
+2025-12-09 20:15:37,390 - INFO - Running cron at 2025-12-09 20:15:37.390059
+2025-12-09 20:15:38,396 - INFO - Running cron at 2025-12-09 20:15:38.396107
+2025-12-09 20:15:39,407 - INFO - Running cron at 2025-12-09 20:15:39.407516
+2025-12-09 20:15:40,421 - INFO - Running cron at 2025-12-09 20:15:40.421392
+2025-12-09 20:15:41,431 - INFO - Running cron at 2025-12-09 20:15:41.431413
+2025-12-09 20:15:42,444 - INFO - Running cron at 2025-12-09 20:15:42.444882
+2025-12-09 20:15:43,457 - INFO - Running cron at 2025-12-09 20:15:43.457164
+2025-12-09 20:15:44,466 - INFO - Running cron at 2025-12-09 20:15:44.466067
+2025-12-09 20:15:45,478 - INFO - Running cron at 2025-12-09 20:15:45.478784
+2025-12-09 20:15:46,490 - INFO - Running cron at 2025-12-09 20:15:46.490653
+2025-12-09 20:15:47,497 - INFO - Running cron at 2025-12-09 20:15:47.497274
+2025-12-09 20:15:48,508 - INFO - Running cron at 2025-12-09 20:15:48.508305
+2025-12-09 20:15:49,510 - INFO - Running cron at 2025-12-09 20:15:49.510594
+2025-12-09 20:15:50,518 - INFO - Running cron at 2025-12-09 20:15:50.518908
+2025-12-09 20:15:51,529 - INFO - Running cron at 2025-12-09 20:15:51.529789
+2025-12-09 20:15:52,541 - INFO - Running cron at 2025-12-09 20:15:52.541757
+2025-12-09 20:15:53,549 - INFO - Running cron at 2025-12-09 20:15:53.549091
+2025-12-09 20:15:54,558 - INFO - Running cron at 2025-12-09 20:15:54.558434
+2025-12-09 20:15:55,569 - INFO - Running cron at 2025-12-09 20:15:55.569739
+2025-12-09 20:15:56,579 - INFO - Running cron at 2025-12-09 20:15:56.579813
+2025-12-09 20:15:57,594 - INFO - Running cron at 2025-12-09 20:15:57.594042
+2025-12-09 20:15:58,601 - INFO - Running cron at 2025-12-09 20:15:58.601263
+2025-12-09 20:15:59,613 - INFO - Running cron at 2025-12-09 20:15:59.613096
+2025-12-09 20:16:00,618 - INFO - Running cron at 2025-12-09 20:16:00.618262
+2025-12-09 20:16:01,621 - INFO - Running cron at 2025-12-09 20:16:01.621277
+2025-12-09 20:16:02,628 - INFO - Running cron at 2025-12-09 20:16:02.628632
+2025-12-09 20:16:03,639 - INFO - Running cron at 2025-12-09 20:16:03.639526
+2025-12-09 20:16:04,653 - INFO - Running cron at 2025-12-09 20:16:04.653305
+2025-12-09 20:16:05,659 - INFO - Running cron at 2025-12-09 20:16:05.659262
+2025-12-09 20:16:06,667 - INFO - Running cron at 2025-12-09 20:16:06.667258
+2025-12-09 20:16:07,675 - INFO - Running cron at 2025-12-09 20:16:07.675283
+2025-12-09 20:16:08,682 - INFO - Running cron at 2025-12-09 20:16:08.681985
+Traceback (most recent call last):
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2348, in wrapper
+    return await func(*args)
+           ^^^^^^^^^^^^^^^^^
+  File "E:\cron_apps\app_cron.py", line 40, in loop_cron
+    await download_and_delete_mp4()
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 87, in sleep
+    return await get_async_backend().sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2409, in sleep
+    await sleep(delay)
+  File "E:\apps\miniconda3\Lib\asyncio\tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 46, in <module>
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 75, in run
+    return async_backend.run(func, args, {}, backend_options)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2365, in run
+    return runner.run(wrapper())
+           ~~~~~~~~~~^^^^^^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+^C2025-12-09 20:16:12,805 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:12.805533
+2025-12-09 20:16:13,819 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:13.819307
+2025-12-09 20:16:14,822 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:14.822830
+2025-12-09 20:16:15,829 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:15.829826
+2025-12-09 20:16:16,839 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:16.839264
+2025-12-09 20:16:17,848 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:17.848144
+2025-12-09 20:16:18,859 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:18.859555
+2025-12-09 20:16:19,870 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:19.870367
+2025-12-09 20:16:20,883 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:20.883456
+2025-12-09 20:16:21,892 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:21.892713
+2025-12-09 20:16:22,897 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:22.897888
+2025-12-09 20:16:23,911 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:23.911766
+2025-12-09 20:16:24,925 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:24.925466
+2025-12-09 20:16:25,940 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:25.940793
+2025-12-09 20:16:26,947 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:26.947826
+2025-12-09 20:16:27,951 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:27.951606
+2025-12-09 20:16:28,962 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:28.962349
+2025-12-09 20:16:29,968 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:29.968296
+2025-12-09 20:16:30,976 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:30.976563
+2025-12-09 20:16:31,982 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:31.982932
+2025-12-09 20:16:32,987 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:32.987097
+2025-12-09 20:16:33,998 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:33.998272
+2025-12-09 20:16:35,006 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:35.006737
+2025-12-09 20:16:36,016 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:36.016269
+2025-12-09 20:16:37,024 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:37.024813
+2025-12-09 20:16:38,037 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:38.037286
+2025-12-09 20:16:39,048 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:39.047964
+2025-12-09 20:16:40,058 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:40.058154
+2025-12-09 20:16:41,070 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:41.070292
+2025-12-09 20:16:42,080 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:42.080053
+2025-12-09 20:16:43,086 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:43.086064
+2025-12-09 20:16:44,089 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:44.089925
+2025-12-09 20:16:45,098 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:45.098892
+2025-12-09 20:16:46,099 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:46.099594
+2025-12-09 20:16:47,101 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:47.101806
+2025-12-09 20:16:48,103 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:48.103231
+2025-12-09 20:16:49,109 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:49.109430
+2025-12-09 20:16:50,117 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:50.117021
+2025-12-09 20:16:51,130 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:51.130292
+2025-12-09 20:16:52,131 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:52.131821
+2025-12-09 20:16:53,140 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:53.139946
+2025-12-09 20:16:54,141 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:54.141756
+2025-12-09 20:16:55,144 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:55.144304
+2025-12-09 20:16:56,146 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:56.146706
+2025-12-09 20:16:57,153 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:57.153891
+2025-12-09 20:16:58,163 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:58.163252
+2025-12-09 20:16:59,164 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:16:59.164005
+2025-12-09 20:17:00,179 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:00.179229
+2025-12-09 20:17:01,179 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:01.179671
+2025-12-09 20:17:02,187 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:02.187441
+2025-12-09 20:17:03,190 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:03.190536
+2025-12-09 20:17:04,198 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:04.198326
+2025-12-09 20:17:05,205 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:05.205354
+2025-12-09 20:17:06,212 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:06.212353
+2025-12-09 20:17:07,223 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:07.223710
+2025-12-09 20:17:08,232 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:08.232377
+2025-12-09 20:17:09,243 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:09.243461
+Traceback (most recent call last):
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2348, in wrapper
+    return await func(*args)
+           ^^^^^^^^^^^^^^^^^
+  File "E:\cron_apps\app_cron.py", line 45, in loop_cron
+    await anyio.sleep(interval_seconds)
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 87, in sleep
+    return await get_async_backend().sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2409, in sleep
+    await sleep(delay)
+  File "E:\apps\miniconda3\Lib\asyncio\tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 51, in <module>
+    anyio.run(loop_cron, 4 * 3600)  # 每 4 小时执行一次
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 75, in run
+    return async_backend.run(func, args, {}, backend_options)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2365, in run
+    return runner.run(wrapper())
+           ~~~~~~~~~~^^^^^^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+^C2025-12-09 20:17:13,418 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:13.418670
+2025-12-09 20:17:14,431 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:14.431364
+2025-12-09 20:17:15,439 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:15.439039
+2025-12-09 20:17:16,443 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:16.443307
+2025-12-09 20:17:17,449 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:17.449573
+2025-12-09 20:17:18,454 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:18.453964
+2025-12-09 20:17:19,458 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:19.458302
+2025-12-09 20:17:20,471 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:20.471565
+2025-12-09 20:17:21,484 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:21.484655
+2025-12-09 20:17:22,489 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:22.489038
+2025-12-09 20:17:23,503 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:23.503010
+2025-12-09 20:17:24,516 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:24.516182
+2025-12-09 20:17:25,529 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:25.528977
+2025-12-09 20:17:26,542 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:26.542608
+2025-12-09 20:17:27,550 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:27.550894
+2025-12-09 20:17:28,562 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:28.562158
+2025-12-09 20:17:29,569 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:29.569187
+2025-12-09 20:17:30,579 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:30.579578
+2025-12-09 20:17:31,593 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:31.593468
+2025-12-09 20:17:32,599 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:32.599042
+2025-12-09 20:17:33,603 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:33.603888
+2025-12-09 20:17:34,614 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:34.614177
+2025-12-09 20:17:35,621 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:35.621092
+2025-12-09 20:17:36,629 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:36.629064
+2025-12-09 20:17:37,644 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:37.644362
+2025-12-09 20:17:38,657 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:38.657258
+Traceback (most recent call last):
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2348, in wrapper
+    return await func(*args)
+           ^^^^^^^^^^^^^^^^^
+  File "E:\cron_apps\app_cron.py", line 45, in loop_cron
+    await anyio.sleep(interval_seconds)
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 87, in sleep
+    return await get_async_backend().sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2409, in sleep
+    await sleep(delay)
+  File "E:\apps\miniconda3\Lib\asyncio\tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 51, in <module>
+    anyio.run(loop_cron, 4 * 3600)  # 每 4 小时执行一次
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 75, in run
+    return async_backend.run(func, args, {}, backend_options)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2365, in run
+    return runner.run(wrapper())
+           ~~~~~~~~~~^^^^^^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+^C2025-12-09 20:17:42,508 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:42.508156
+2025-12-09 20:17:42,508 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:43,511 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:43.511827
+2025-12-09 20:17:43,512 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:44,522 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:44.522078
+2025-12-09 20:17:44,522 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:45,524 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:45.524619
+2025-12-09 20:17:45,524 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:46,534 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:46.534263
+2025-12-09 20:17:46,534 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:47,549 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:47.549082
+2025-12-09 20:17:47,549 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:48,554 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:48.554833
+2025-12-09 20:17:48,555 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:49,566 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:49.566647
+2025-12-09 20:17:49,566 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:50,577 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:50.577887
+2025-12-09 20:17:50,578 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:51,589 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:51.589585
+2025-12-09 20:17:51,589 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:52,601 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:52.601683
+2025-12-09 20:17:52,601 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:53,617 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:53.617416
+2025-12-09 20:17:53,617 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:54,629 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:54.629571
+2025-12-09 20:17:54,629 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:55,644 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:55.644288
+2025-12-09 20:17:55,644 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:56,646 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:56.646275
+2025-12-09 20:17:56,646 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:57,648 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:57.648888
+2025-12-09 20:17:57,649 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:58,653 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:58.653802
+2025-12-09 20:17:58,653 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:17:59,659 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:17:59.659405
+2025-12-09 20:17:59,659 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:00,673 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:00.673085
+2025-12-09 20:18:00,673 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:01,675 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:01.675391
+2025-12-09 20:18:01,675 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:02,683 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:02.683462
+2025-12-09 20:18:02,683 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:03,697 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:03.697277
+2025-12-09 20:18:03,697 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:04,708 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:04.708317
+2025-12-09 20:18:04,708 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:05,723 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:05.723217
+2025-12-09 20:18:05,723 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:06,733 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:06.733353
+2025-12-09 20:18:06,733 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:07,745 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:07.745503
+2025-12-09 20:18:07,745 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:08,759 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:08.759569
+2025-12-09 20:18:08,759 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:09,771 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:09.771055
+2025-12-09 20:18:09,771 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:10,784 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:10.784287
+2025-12-09 20:18:10,784 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:11,796 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:11.796856
+2025-12-09 20:18:11,797 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:12,803 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:12.803812
+2025-12-09 20:18:12,803 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:13,814 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:13.814110
+2025-12-09 20:18:13,814 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:14,816 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:14.816486
+2025-12-09 20:18:14,816 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:15,830 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:15.830055
+2025-12-09 20:18:15,830 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:16,842 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:16.842360
+2025-12-09 20:18:16,842 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:17,851 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:17.851818
+2025-12-09 20:18:17,851 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:18,861 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:18.861481
+2025-12-09 20:18:18,861 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:19,870 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:19.870520
+2025-12-09 20:18:19,870 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:20,881 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:20.881869
+2025-12-09 20:18:20,882 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:21,889 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:21.889118
+2025-12-09 20:18:21,889 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:22,897 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:22.897099
+2025-12-09 20:18:22,897 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:23,899 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:23.899592
+2025-12-09 20:18:23,899 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:24,904 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:24.904305
+2025-12-09 20:18:24,904 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:25,913 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:25.913283
+2025-12-09 20:18:25,913 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:26,923 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:26.923784
+2025-12-09 20:18:26,923 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:27,933 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:27.933046
+2025-12-09 20:18:27,933 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:28,946 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:28.945953
+2025-12-09 20:18:28,946 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:29,959 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:29.959276
+2025-12-09 20:18:29,959 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:30,966 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:30.966269
+2025-12-09 20:18:30,966 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:31,977 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:31.977023
+2025-12-09 20:18:31,977 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:32,981 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:32.981262
+2025-12-09 20:18:32,981 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:33,987 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:33.987301
+2025-12-09 20:18:33,987 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:34,993 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:34.993300
+2025-12-09 20:18:34,993 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:36,002 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:36.002872
+2025-12-09 20:18:36,003 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:37,010 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:37.010705
+2025-12-09 20:18:37,010 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:38,019 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:38.019287
+2025-12-09 20:18:38,019 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:39,031 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:39.031873
+2025-12-09 20:18:39,032 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:40,041 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:40.041303
+2025-12-09 20:18:40,041 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:41,053 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:41.053361
+2025-12-09 20:18:41,053 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:42,055 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:42.055818
+2025-12-09 20:18:42,055 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:43,059 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:43.059774
+2025-12-09 20:18:43,059 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:44,067 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:44.067159
+2025-12-09 20:18:44,067 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:45,081 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:45.081387
+2025-12-09 20:18:45,081 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:46,091 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:46.091618
+2025-12-09 20:18:46,091 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:47,092 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:47.092855
+2025-12-09 20:18:47,093 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:48,107 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:48.107915
+2025-12-09 20:18:48,108 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:49,117 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:49.117933
+2025-12-09 20:18:49,118 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:50,124 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:50.124072
+2025-12-09 20:18:50,124 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:51,130 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:51.130601
+2025-12-09 20:18:51,130 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:52,139 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:52.139811
+2025-12-09 20:18:52,139 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:53,153 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:53.153348
+2025-12-09 20:18:53,153 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:54,162 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:54.162680
+2025-12-09 20:18:54,162 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:55,170 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:55.170274
+2025-12-09 20:18:55,170 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:56,177 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:56.177698
+2025-12-09 20:18:56,177 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:57,181 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:57.181583
+2025-12-09 20:18:57,181 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:58,192 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:58.192063
+2025-12-09 20:18:58,192 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:18:59,196 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:18:59.196322
+2025-12-09 20:18:59,196 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:00,209 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:00.209627
+2025-12-09 20:19:00,209 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:01,216 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:01.216715
+2025-12-09 20:19:01,216 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:02,226 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:02.226267
+2025-12-09 20:19:02,226 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:03,228 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:03.228770
+2025-12-09 20:19:03,228 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:04,239 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:04.239254
+2025-12-09 20:19:04,239 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:05,243 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:05.243301
+2025-12-09 20:19:05,243 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:06,252 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:06.252300
+2025-12-09 20:19:06,252 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:07,256 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:07.256376
+2025-12-09 20:19:07,256 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:08,269 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:08.269805
+2025-12-09 20:19:08,270 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:09,284 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:09.284352
+2025-12-09 20:19:09,284 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:10,296 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:10.296662
+2025-12-09 20:19:10,296 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:11,303 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:11.302985
+2025-12-09 20:19:11,303 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:12,310 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:12.310600
+2025-12-09 20:19:12,310 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:13,322 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:13.322609
+2025-12-09 20:19:13,322 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:14,333 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:14.333822
+2025-12-09 20:19:14,334 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:15,342 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:15.342846
+2025-12-09 20:19:15,343 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:16,352 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:16.352801
+2025-12-09 20:19:16,352 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:17,367 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:17.367881
+2025-12-09 20:19:17,368 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:18,375 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:18.375741
+2025-12-09 20:19:18,375 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:19,385 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:19.385614
+2025-12-09 20:19:19,385 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:20,393 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:20.393267
+2025-12-09 20:19:20,393 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:21,399 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:21.398995
+2025-12-09 20:19:21,399 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:22,403 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:22.403363
+2025-12-09 20:19:22,403 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:23,418 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:23.418307
+2025-12-09 20:19:23,418 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:24,430 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:24.430677
+2025-12-09 20:19:24,430 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:25,445 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:25.445216
+2025-12-09 20:19:25,445 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:26,452 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:26.452575
+2025-12-09 20:19:26,452 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:27,460 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:27.460255
+2025-12-09 20:19:27,460 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:28,470 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:28.470443
+2025-12-09 20:19:28,470 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:29,479 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:29.479730
+2025-12-09 20:19:29,479 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:30,484 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:30.484291
+2025-12-09 20:19:30,484 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:31,494 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:31.494786
+2025-12-09 20:19:31,494 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:32,499 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:32.499491
+2025-12-09 20:19:32,499 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:33,504 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:33.504077
+2025-12-09 20:19:33,504 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:34,509 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:34.509632
+2025-12-09 20:19:34,509 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:35,513 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:35.513298
+2025-12-09 20:19:35,513 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:36,518 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:36.518277
+2025-12-09 20:19:36,518 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:37,529 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:37.529834
+2025-12-09 20:19:37,530 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:38,543 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:38.543024
+2025-12-09 20:19:38,543 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:39,545 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:39.545808
+2025-12-09 20:19:39,546 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+2025-12-09 20:19:40,558 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:40.558500
+2025-12-09 20:19:40,558 - ERROR - Error occurred: <ContextVar name='pipeline' at 0x0000027272DDBCE0>
+Traceback (most recent call last):
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2348, in wrapper
+    return await func(*args)
+           ^^^^^^^^^^^^^^^^^
+  File "E:\cron_apps\app_cron.py", line 45, in loop_cron
+    await anyio.sleep(interval_seconds)
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 87, in sleep
+    return await get_async_backend().sleep(delay)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2409, in sleep
+    await sleep(delay)
+  File "E:\apps\miniconda3\Lib\asyncio\tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 51, in <module>
+    anyio.run(loop_cron, 4 * 3600)  # 每 4 小时执行一次
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 75, in run
+    return async_backend.run(func, args, {}, backend_options)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2365, in run
+    return runner.run(wrapper())
+           ~~~~~~~~~~^^^^^^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+^C2025-12-09 20:19:44,063 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:19:44.063174
+2025-12-09 20:19:58,322 - INFO - 仓库文件总数：185
+2025-12-09 20:19:58,322 - INFO - 正在下载：model-00006-of-000163.safetensors
+E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
+  warnings.warn(
+Cancellation requested; stopping current tasks.
+Traceback (most recent call last):
+  File "E:\cron_apps\app_cron.py", line 51, in <module>
+    # =========================
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_core\_eventloop.py", line 75, in run
+    return async_backend.run(func, args, {}, backend_options)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2365, in run
+    return runner.run(wrapper())
+           ~~~~~~~~~~^^^^^^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "E:\apps\miniconda3\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "E:\apps\miniconda3\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "E:\apps\miniconda3\Lib\asyncio\base_events.py", line 2050, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "E:\apps\miniconda3\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 2348, in wrapper
+    return await func(*args)
+           ^^^^^^^^^^^^^^^^^
+  File "E:\cron_apps\app_cron.py", line 40, in loop_cron
+    interval_seconds = 1  # 转为秒
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\cron_apps\app_cron.py", line 31, in download_and_delete_mp4
+  File "E:\cron_apps\download_api\hugging_face_hub_download.py", line 46, in download_and_delete_mp4
+    local_path = hf_hub_download(
+        repo_id=repo_id,
+    ...<2 lines>...
+        resume_download=True,  # 支持断点续传
+    )
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1024, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+        # Destination
+    ...<15 lines>...
+        dry_run=dry_run,
+    )
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1240, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        incomplete_path=Path(blob_path + ".incomplete"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1864, in _download_to_tmp_and_move
+    xet_get(
+    ~~~~~~~^
+        incomplete_path=incomplete_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 588, in xet_get
+    download_files(
+    ~~~~~~~~~~~~~~^
+        xet_download_info,
+        ^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        progress_updater=[progress_updater],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+KeyboardInterrupt
+^C2025-12-09 20:20:45,070 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:20:45.070137
+2025-12-09 20:20:55,707 - ERROR - Error occurred: _ssl.c:1015: The handshake operation timed out
+2025-12-09 20:20:56,722 - INFO - Running download_and_delete_mp4 at 2025-12-09 20:20:56.722198
+2025-12-09 20:21:06,352 - INFO - 仓库文件总数：185
+2025-12-09 20:21:06,352 - INFO - 正在下载：model-00129-of-000163.safetensors
+E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: UserWarning: The `resume_download` argument is deprecated and ignored in `hf_hub_download`. Downloads always resume whenever possible.
+  warnings.warn(

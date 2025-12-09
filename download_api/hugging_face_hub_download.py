@@ -14,9 +14,8 @@ repo_id = "deepseek-ai/DeepSeek-V3"
 local_dir = f"tmp/{repo_id}"
 
 
-async def download_and_delete_mp4():
+async def download_and_delete_mp4(_logger):
     """Fetch latest 50 sales of the day"""
-    _logger = get_logger()
     os.makedirs(local_dir, exist_ok=True)
 
     # 初始化 API
@@ -60,4 +59,6 @@ async def download_and_delete_mp4():
 
 
 if __name__ == "__main__":
-    asyncio.run(download_and_delete_mp4())
+    _logger = get_logger()
+
+    asyncio.run(download_and_delete_mp4(_logger))

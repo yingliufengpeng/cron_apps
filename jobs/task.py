@@ -17,4 +17,4 @@ async def download_and_delete_mp4():
 
     _logger.info(f"Running download_and_delete_mp4 at {datetime.now()}")
 
-    await hugging_face_hub_download.download_and_delete_mp4()
+    await hugging_face_hub_download.download_and_delete_mp4(_logger)
