@@ -1117,3 +1117,82 @@ E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py:186: U
 INFO  [plombery.16-download_and_delete_mp4] 已下载：model-00003-of-000163.safetensors -> tmp/deepseek-ai/DeepSeek-V3\models--deepseek-ai--DeepSeek-V3\snapshots\e815299b0bcbac849fa540c768ef21845365c9eb\model-00003-of-000163.safetensors
 正在下载：model-00004-of-000163.safetensors
 INFO  [plombery.16-download_and_delete_mp4] 正在下载：model-00004-of-000163.safetensors
+Cancellation requested; stopping current tasks.
+ERROR [apscheduler.executors.default] Job "run (trigger: date[2025-12-09 18:44:56 +08], pending)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\peng\AppData\Roaming\Python\Python313\site-packages\apscheduler\executors\base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 130, in run
+    flowing_data = await _execute_task(task, flowing_data, pipeline_params)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\apps\miniconda3\Lib\site-packages\plombery\orchestrator\executor.py", line 208, in _execute_task
+    result = await task.run(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\apps\miniconda3\Lib\site-packages\plombery\pipeline\__init__.py", line 15, in wrapper_decorator
+    value = await func(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\cron_apps\jobs\task.py", line 20, in download_and_delete_mp4
+    await hugging_face_hub_download.download_and_delete_mp4()
+  File "E:\cron_apps\download_api\hugging_face_hub_download.py", line 46, in download_and_delete_mp4
+    local_path = hf_hub_download(
+        repo_id=repo_id,
+    ...<2 lines>...
+        resume_download=True,  # 支持断点续传
+    )
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\utils\_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1024, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+        # Destination
+    ...<15 lines>...
+        dry_run=dry_run,
+    )
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1240, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        incomplete_path=Path(blob_path + ".incomplete"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 1864, in _download_to_tmp_and_move
+    xet_get(
+    ~~~~~~~^
+        incomplete_path=incomplete_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        tqdm_class=tqdm_class,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\apps\miniconda3\Lib\site-packages\huggingface_hub\file_download.py", line 588, in xet_get
+    download_files(
+    ~~~~~~~~~~~~~~^
+        xet_download_info,
+        ^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        progress_updater=[progress_updater],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+KeyboardInterrupt
+INFO:     127.0.0.1:56483 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:59711 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:55724 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:53624 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:49462 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:60969 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:52198 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:55910 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:63763 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:55611 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:55380 - "GET /assets/index-CZhli8kz.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53494 - "GET /assets/index-D7hlsBy4.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:52597 - "WebSocket /ws/socket.io/?EIO=4&transport=websocket" [accepted]
+INFO:     127.0.0.1:53494 - "GET /api/auth/whoami HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53494 - "GET /logo.svg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:53494 - "GET /api/pipelines/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55380 - "GET /api/runs/?pipeline_id=&trigger_id= HTTP/1.1" 200 OK

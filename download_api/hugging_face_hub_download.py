@@ -13,12 +13,11 @@ os.environ["HF_HUB_URL"] = "https://huggingface.co.cn"
 repo_id = "deepseek-ai/DeepSeek-V3"
 local_dir = f"tmp/{repo_id}"
 
-os.makedirs(local_dir, exist_ok=True)
-
 
 async def download_and_delete_mp4():
     """Fetch latest 50 sales of the day"""
     _logger = get_logger()
+    os.makedirs(local_dir, exist_ok=True)
 
     # 初始化 API
     api = HfApi()
