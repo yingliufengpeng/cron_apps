@@ -19,6 +19,7 @@
 
 # 删除定时任务(windows)
   SCHTASKS /Delete /TN "PlomberyScheduler" /F
+  
   SCHTASKS /Delete /TN "PlomberySchedulerCron" /F
 
 
